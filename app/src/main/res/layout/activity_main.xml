@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Dollar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:clickable="false"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/eur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EUR ЕВРО" />
+
+        <CheckBox
+            android:id="@+id/usd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USD Доллар США" />
+
+        <CheckBox
+            android:id="@+id/gbp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GBP Фунт стерлингов" />
+
+        <CheckBox
+            android:id="@+id/rub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RUB Российский рубль" />
+
+        <CheckBox
+            android:id="@+id/kzt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KZT Казахстанский тенге" />
+
+        <CheckBox
+            android:id="@+id/uah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UAH Украинская гривна" />
+
+        <CheckBox
+            android:id="@+id/amd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AMD Армянский драм" />
+
+        <CheckBox
+            android:id="@+id/byn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BYN Белорусский рубль" />
+
+        <CheckBox
+            android:id="@+id/pln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLN Польский злотый" />
+
+        <Button
+            android:id="@+id/convert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convert" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinProject</string>
+    <string name="value1">RUB</string>
+    <string name="value2">USD</string>
+</resources>
